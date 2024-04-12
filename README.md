@@ -23,6 +23,7 @@ Q# simulation completed.
 We collected following resource estimation
 Results 
 ![Results](https://github.com/barnotas/microsoft_quantum_challange/assets/61534987/bd773297-110e-476e-b464-f00b40acf837)
+Gate Configurations: Comparing different gate configurations (e.g., qubit_gate_ns_e3 vs. qubit_gate_ns_e4) allowed us to identify which setups minimize resource usage while maintaining algorithmic integrity.
 
 Space diagram
 ![Space diagram](https://github.com/barnotas/microsoft_quantum_challange/assets/61534987/0bce23e7-b3f1-428f-b350-749a5e56674c)
