@@ -1,5 +1,6 @@
 
 Deutsch-Jozsa algorithm resource estimation
+
 We implemented Deutsch-Jozsa for resource estimation. This algorithm evaluates a number of queries to the oracle. With help of this algorithm, it is possible to decide whether a function has certain peroperty with single call of the function, instead of two calls that are necessary classically. 
 
 Output of the algorithm
