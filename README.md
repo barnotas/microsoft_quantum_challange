@@ -1,7 +1,6 @@
+**Deutsch-Jozsa algorithm resource estimation using Q#.**
 
-Deutsch-Jozsa algorithm resource estimation
-
-We implemented Deutsch-Jozsa for resource estimation. This algorithm evaluates a number of queries to the oracle. With help of this algorithm, it is possible to decide whether a function has certain peroperty with single call of the function, instead of two calls that are necessary classically. 
+We implemented Deutsch-Jozsa algorithm using Q# for resource estimation. The Deutsch-Jozsa algorithm is a quantum algorithm designed to determine whether a given Boolean function, is constant or balanced. This algorithm evaluates a number of queries to the oracle. With help of this algorithm, it is possible to decide whether a function has certain peroperty with single call of the function, instead of two calls that are necessary classically. This implementation includes three oracle functions to demonstrate the algorithm's application.
 
 Output of the algorithm
 Function 0 is constant.
@@ -9,6 +8,14 @@ Function 1 is constant.
 Function 2 is balanced.
 Result: "()"
 Finished shot 1 of 1
+
+**Features**
+
+**Deutsch-Jozsa Algorithm Implementation:** Core implementation of the quantum algorithm.
+
+**Multiple Oracles:** Includes three oracle functions, one for a constant function that always outputs 0, another for a constant function that always outputs 1, and a balanced function.
+
+**Quantum Simulation:** Utilizes Microsoft's Quantum Development Kit for simulation.
 
 Q# simulation completed.
 
